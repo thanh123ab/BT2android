@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1081539266119",
+    "firebase_url": "https://btthay-35cc0-default-rtdb.firebaseio.com",
+    "project_id": "btthay-35cc0",
+    "storage_bucket": "btthay-35cc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081539266119:android:31993dd3801afb3bded362",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1s42YhVQJqcA8X3ML6qAdrOaBa0VVQnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
