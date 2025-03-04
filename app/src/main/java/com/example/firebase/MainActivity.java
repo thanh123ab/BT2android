@@ -1,8 +1,11 @@
 package com.example.firebase;
 
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -48,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 // whenever data at this location is updated.
                 doituong value = dataSnapshot.getValue(doituong.class);
                 Log.d(TAG, "Value is: " + value);
-                sanxuat.setText(value.getsanxuat());
-                mausac.setText(value.getmausac());
-                tien.getText(value.gettien().toString);
+                sanxuat.setText(value.getSanxuat());
+                mausac.setText(value.getMausac());
+                tien.setText(String.valueOf(value.getTien()));
                 showNotification("Notification","sanpham ");
             }
 
